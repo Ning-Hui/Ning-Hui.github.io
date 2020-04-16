@@ -6,7 +6,7 @@
   <link href="/Ning-Hui.github.io/atom.xml" rel="self"/>
   
   <link href="https://ning-hui.github.io/"/>
-  <updated>2019-08-29T03:27:48.029Z</updated>
+  <updated>2020-04-16T13:35:20.355Z</updated>
   <id>https://ning-hui.github.io/</id>
   
   <author>
@@ -17,35 +17,115 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Appreciation of Novels(2)</title>
-    <link href="https://ning-hui.github.io/Appreciation-of-Novels-2/"/>
-    <id>https://ning-hui.github.io/Appreciation-of-Novels-2/</id>
-    <published>2019-08-04T02:18:50.000Z</published>
-    <updated>2019-08-29T03:27:48.029Z</updated>
+    <title>线段树Segment Tree</title>
+    <link href="https://ning-hui.github.io/Segment-Tree/"/>
+    <id>https://ning-hui.github.io/Segment-Tree/</id>
+    <published>2020-03-07T08:13:38.000Z</published>
+    <updated>2020-04-16T13:35:20.355Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt; “不要忘记你曾经是怎样的小孩”，“不要忘记你曾希望变成怎样的大人”。&lt;/p&gt;
+      &lt;p&gt;迷茫&lt;/p&gt;
     
     </summary>
     
-      <category term="literature" scheme="https://ning-hui.github.io/categories/literature/"/>
+      <category term="Algorithm" scheme="https://ning-hui.github.io/categories/Algorithm/"/>
     
     
-      <category term="literature" scheme="https://ning-hui.github.io/tags/literature/"/>
+      <category term="Segment Tree" scheme="https://ning-hui.github.io/tags/Segment-Tree/"/>
     
   </entry>
   
   <entry>
-    <title>A New Start</title>
-    <link href="https://ning-hui.github.io/A-New-Start/"/>
-    <id>https://ning-hui.github.io/A-New-Start/</id>
-    <published>2019-06-20T11:30:37.000Z</published>
-    <updated>2019-08-29T03:25:58.451Z</updated>
+    <title>正则——常用匹配公式</title>
+    <link href="https://ning-hui.github.io/re-expression/"/>
+    <id>https://ning-hui.github.io/re-expression/</id>
+    <published>2020-03-01T06:08:54.000Z</published>
+    <updated>2020-04-16T13:36:19.917Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;This is a nice day!!!&lt;/p&gt;
+      &lt;p&gt;正则！正则！正则！正则！正则！正则！正则！正则！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://ning-hui.github.io/categories/python/"/>
+    
+    
+      <category term="re" scheme="https://ning-hui.github.io/tags/re/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>尺取法</title>
+    <link href="https://ning-hui.github.io/ruler-method/"/>
+    <id>https://ning-hui.github.io/ruler-method/</id>
+    <published>2020-02-17T10:45:17.000Z</published>
+    <updated>2020-04-16T13:34:50.927Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;换换思路。休息一下。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Algorithm" scheme="https://ning-hui.github.io/categories/Algorithm/"/>
+    
+    
+      <category term="ruler_method" scheme="https://ning-hui.github.io/tags/ruler-method/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Section DP</title>
+    <link href="https://ning-hui.github.io/SectionDP/"/>
+    <id>https://ning-hui.github.io/SectionDP/</id>
+    <published>2020-02-15T07:24:22.000Z</published>
+    <updated>2020-04-16T13:35:07.098Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;世界上的人都变成废柴，这个世界就没有废柴了&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Algorithm" scheme="https://ning-hui.github.io/categories/Algorithm/"/>
+    
+    
+      <category term="Section DP" scheme="https://ning-hui.github.io/tags/Section-DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冬日</title>
+    <link href="https://ning-hui.github.io/winter-scenery/"/>
+    <id>https://ning-hui.github.io/winter-scenery/</id>
+    <published>2020-01-31T06:38:00.000Z</published>
+    <updated>2020-04-16T13:36:02.310Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;冬日。感谢美丽的摄影师（ORZ）&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Life essay" scheme="https://ning-hui.github.io/categories/Life-essay/"/>
+    
+    
+      <category term="Scenery" scheme="https://ning-hui.github.io/tags/Scenery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>陌上花开</title>
+    <link href="https://ning-hui.github.io/record/"/>
+    <id>https://ning-hui.github.io/record/</id>
+    <published>2019-12-01T11:46:45.000Z</published>
+    <updated>2020-04-16T13:33:32.621Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;12月的第一天，也是一年中的最后一个月，不知不觉你又长大一岁。&lt;/p&gt;
     
     </summary>
     
@@ -57,22 +137,62 @@
   </entry>
   
   <entry>
-    <title>Appreciation of Novels(1)</title>
-    <link href="https://ning-hui.github.io/Appreciation%20of%20Novels/"/>
-    <id>https://ning-hui.github.io/Appreciation of Novels/</id>
-    <published>2019-06-20T05:48:53.000Z</published>
-    <updated>2019-08-28T15:24:39.979Z</updated>
+    <title>RKGE_论文阅读笔记</title>
+    <link href="https://ning-hui.github.io/RKGE/"/>
+    <id>https://ning-hui.github.io/RKGE/</id>
+    <published>2019-11-06T04:33:04.000Z</published>
+    <updated>2020-04-16T13:34:31.229Z</updated>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1.&quot;&gt;&lt;/a&gt;1.&lt;/h4&gt;&lt;p&gt;我因车祸而失明，所以我从不知女友长什么样。那年，她得了胃癌，临终前她将眼角膜移植给了我。我恢复光明后的第一件事就是找她的照片，然而我只找到她留给我的一封信，信里有一张空白照片，照片上写有一句话：“别再想我长什么样，下一个你爱上的人，就是我的模样。”&lt;/p&gt;
+      &lt;p&gt;while(1) {   cout&amp;lt;&amp;lt;”Never Give Up”&amp;lt;&amp;lt;endl;   }&lt;/p&gt;
     
     </summary>
     
-      <category term="literature" scheme="https://ning-hui.github.io/categories/literature/"/>
+      <category term="AI" scheme="https://ning-hui.github.io/categories/AI/"/>
     
     
-      <category term="literature" scheme="https://ning-hui.github.io/tags/literature/"/>
+      <category term="RKGE" scheme="https://ning-hui.github.io/tags/RKGE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python实现贪吃蛇小游戏</title>
+    <link href="https://ning-hui.github.io/snake-game/"/>
+    <id>https://ning-hui.github.io/snake-game/</id>
+    <published>2019-10-28T09:02:56.000Z</published>
+    <updated>2020-04-16T13:35:34.161Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一起来玩游戏？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://ning-hui.github.io/categories/python/"/>
+    
+    
+      <category term="snake_game" scheme="https://ning-hui.github.io/tags/snake-game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sort() function</title>
+    <link href="https://ning-hui.github.io/sort_function/"/>
+    <id>https://ning-hui.github.io/sort_function/</id>
+    <published>2019-06-20T11:28:25.000Z</published>
+    <updated>2020-04-16T13:35:47.713Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;C-中的sort（）函数&quot;&gt;&lt;a href=&quot;#C-中的sort（）函数&quot; class=&quot;headerlink&quot; title=&quot;C++中的sort（）函数&quot;&gt;&lt;/a&gt;C++中的sort（）函数&lt;/h4&gt;&lt;p&gt;我在之前的博客中提到，解决排序问题的一个好用的函数就是C++的sort（）函数啦。sort（）函数是C++内置的函数，只需要加入头文件，掌握正确的使用方法，你就可以在排序中驰骋疆场了（自吹自擂&lt;del&gt;）。好啦，下面就请主角登场吧&lt;/del&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Algorithm" scheme="https://ning-hui.github.io/categories/Algorithm/"/>
+    
+    
+      <category term="sort" scheme="https://ning-hui.github.io/tags/sort/"/>
     
   </entry>
   

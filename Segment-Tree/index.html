@@ -7,27 +7,27 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>AngelNI&#39;s Blog</title>
+<title>线段树Segment Tree - AngelNI&#39;s Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="google-site-verification" content="JwzmnANXlpmQlhwaSORuqpEB6P3Sr-tRhw4R_XDRcEc">
 <meta name="baidu-site-verification" content="ztPAF2oDcw">
 
 
 
-    <meta name="description" content="#shuoshuo_content {         background-color: #fff;         padding: 10px;         min-height: 500px;     }     /* shuo */       body.theme-dark .cbp_tmtimeline::before {         background: RGBA">
-<meta name="keywords" content="learning note">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AngelNI&#39;s Blog">
-<meta property="og:url" content="https://ning-hui.github.io/suisuinian/index.html">
+    <meta name="description" content="迷茫">
+<meta name="keywords" content="Segment Tree">
+<meta property="og:type" content="article">
+<meta property="og:title" content="线段树Segment Tree">
+<meta property="og:url" content="https://ning-hui.github.io/Segment-Tree/index.html">
 <meta property="og:site_name" content="AngelNI&#39;s Blog">
-<meta property="og:description" content="#shuoshuo_content {         background-color: #fff;         padding: 10px;         min-height: 500px;     }     /* shuo */       body.theme-dark .cbp_tmtimeline::before {         background: RGBA">
+<meta property="og:description" content="迷茫">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://ning-hui.github.io/Ning-Hui.github.io/images/og_image.png">
-<meta property="og:updated_time" content="2020-04-04T05:13:59.147Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/AngelNI/CDN@3.0/gallary/31.webp">
+<meta property="og:updated_time" content="2020-04-16T13:35:20.355Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AngelNI&#39;s Blog">
-<meta name="twitter:description" content="#shuoshuo_content {         background-color: #fff;         padding: 10px;         min-height: 500px;     }     /* shuo */       body.theme-dark .cbp_tmtimeline::before {         background: RGBA">
-<meta name="twitter:image" content="https://ning-hui.github.io/Ning-Hui.github.io/images/og_image.png">
+<meta name="twitter:title" content="线段树Segment Tree">
+<meta name="twitter:description" content="迷茫">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/AngelNI/CDN@3.0/gallary/31.webp">
 
 
 <link rel="stylesheet" type="text/css" href="/css/matery.css">
@@ -121,7 +121,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/Ning-Hui.github.io/">
             
-                <img src="/Ning-Hui.github.io/images/22.png" alt height="28">
+                <img src="/Ning-Hui.github.io/images/22.png" alt="线段树Segment Tree" height="28">
             
             </a>
         </div>
@@ -141,7 +141,7 @@
                 
                 <a class="navbar-item" href="/Ning-Hui.github.io/link">Friends</a>
                 
-                <a class="navbar-item is-active" href="/Ning-Hui.github.io/suisuinian">Voice</a>
+                <a class="navbar-item" href="/Ning-Hui.github.io/suisuinian">Voice</a>
                 
                 <a class="navbar-item" href="http://angelni.cn/">Photo</a>
                 
@@ -176,267 +176,73 @@
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-8-widescreen has-order-2 column-main"><div class="card">
     
+    <div class="card-image">
+        <span class="image is-7by1">
+            <img class="thumbnail" src="https://cdn.jsdelivr.net/gh/AngelNI/CDN@3.0/gallary/31.webp" alt="线段树Segment Tree">
+        </span>
+    </div>
+    
     <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-07T08:13:38.000Z">2020-03-07</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/Ning-Hui.github.io/categories/Algorithm/">Algorithm</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    4 minutes read (About 526 words)
+                </span>
+                
+                
+                <span class="level-item has-text-grey" id="busuanzi_container_page_pv">
+                    <i class="far fa-eye"></i>
+                    <span id="busuanzi_value_page_pv">0</span> visits
+                </span>
+                
+            </div>
+        </div>
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                
+                线段树Segment Tree
             
         </h1>
         <div class="content">
-            <style type="text/css">
-    #shuoshuo_content {
-        background-color: #fff;
-        padding: 10px;
-        min-height: 500px;
-    }
-    /* shuo */
- 
-    body.theme-dark .cbp_tmtimeline::before {
-        background: RGBA(255, 255, 255, 0.06);
-    }
- 
-    ul.cbp_tmtimeline {
-        padding: 0;
-    }
- 
-    div class.cdp_tmlabel > li .cbp_tmlabel {
-        margin-bottom: 0;
-    }
- 
-    .cbp_tmtimeline {
-        margin: 30px 0 0 0;
-        padding: 0;
-        list-style: none;
-        position: relative;
-    }
-    /* The line */
- 
-    .cbp_tmtimeline:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 4px;
-        background: RGBA(0, 0, 0, 0.02);
-        left: 80px;
-        margin-left: 10px;
-    }
-    /* The date/time */
- 
-    .cbp_tmtimeline > li .cbp_tmtime {
-        display: block;
-        /* width: 29%; */
-        /* padding-right: 110px; */
-        max-width: 70px;
-        position: absolute;
-    }
- 
-    .cbp_tmtimeline > li .cbp_tmtime span {
-        display: block;
-        text-align: right;
-    }
- 
-    .cbp_tmtimeline > li .cbp_tmtime span:first-child {
-        font-size: 0.9em;
-        color: #bdd0db;
-    }
- 
-    .cbp_tmtimeline > li .cbp_tmtime span:last-child {
-        font-size: 1.2em;
-        color: #9BCD9B;
-    }
- 
-    .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-        color: RGBA(255, 125, 73, 0.75);
-    }
- 
-    div.cbp_tmlabel > p {
-        margin-bottom: 0;
-    }
-    /* Right content */
- 
-    .cbp_tmtimeline > li .cbp_tmlabel {
-        margin: 0 0 45px 65px;
-        background: #9BCD9B;
-        color: #fff;
-        padding: .8em 1.2em .4em 1.2em;
-        /* font-size: 1.2em; */
-        font-weight: 300;
-        line-height: 1.4;
-        position: relative;
-        border-radius: 5px;
-        transition: all 0.3s ease 0s;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-        cursor: pointer;
-        display: block;
-    }
- 
-    .cbp_tmlabel:hover {
-        /* transform:scale(1.05); */
-        transform: translateY(-3px);
-        z-index: 1;
-        -webkit-box-shadow: 0 15px 32px rgba(0, 0, 0, 0.15) !important
-    }
- 
-    .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-        background: RGBA(255, 125, 73, 0.75);
-    }
-    /* The triangle */
- 
-    .cbp_tmtimeline > li .cbp_tmlabel:after {
-        right: 100%;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-        border-right-color: #9BCD9B;
-        border-width: 10px;
-        top: 4px;
-    }
- 
-    .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-        border-right-color: RGBA(255, 125, 73, 0.75);
-    }
- 
-    p.shuoshuo_time {
-        margin-top: 10px;
-        border-top: 1px dashed #fff;
-        padding-top: 5px;
-    }
-    /* Media */
- 
-    @media screen and (max-width: 65.375em) {
-        .cbp_tmtimeline > li .cbp_tmtime span:last-child {
-            font-size: 1.2em;
-        }
-    }
- 
-    .shuoshuo_author_img img {
-        border: 1px solid #ddd;
-        padding: 2px;
-        float: left;
-        border-radius: 64px;
-        transition: all 1.0s;
-    }
- 
-    .avatar {
-        -webkit-border-radius: 100% !important;
-        -moz-border-radius: 100% !important;
-        box-shadow: inset 0 -1px 0 #3333sf;
-        -webkit-box-shadow: inset 0 -1px 0 #3333sf;
-        -webkit-transition: 0.4s;
-        -webkit-transition: -webkit-transform 0.4s ease-out;
-        transition: transform 0.4s ease-out;
-        -moz-transition: -moz-transform 0.4s ease-out;
-    }
- 
-    .zhuan {
-        transform: rotateZ(720deg);
-        -webkit-transform: rotateZ(720deg);
-        -moz-transform: rotateZ(720deg);
-    }
-    /* end */
-</style>
+            <p>迷茫<a id="more"></a></p>
+<h1 id="线段树学习"><a href="#线段树学习" class="headerlink" title="线段树学习"></a>线段树学习</h1><h2 id="问题导入"><a href="#问题导入" class="headerlink" title="问题导入"></a>问题导入</h2><p>给定一个长度为n的数组，有m次操作，每次操作可能如下：</p>
+<p>1，修改 a[i] 的值</p>
+<p>2，求连续一段区间的和</p>
+<p>3， 求连续一段区间的最大值/最小值</p>
+<p>4，给区间的每个数加上k</p>
+<p>5，查询a[i] 的值。</p>
+<p>如果对这个数据进行模拟操作，最差时间复杂度可能为O(mn) , 如果数据量非常大，处理起来非常容易超时。所以采用一种数据结构来优化。所以<strong>线段树</strong>就诞生了。</p>
+<h2 id="线段树"><a href="#线段树" class="headerlink" title="线段树"></a>线段树</h2><p>线段树类似下图树状结构，用蒟蒻语说，就是“树状区间和”，即将一个二分过程表现出来。通过改变大区间的值，来实现短时区间计算。时间复杂度可以优化到O(logn)</p>
+<p><a href="https://imgchr.com/i/3XhpeU" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/03/07/3XhpeU.png" alt="3XhpeU.png" border="0"></a></p>
+<h2 id="线段树操作"><a href="#线段树操作" class="headerlink" title="线段树操作"></a>线段树操作</h2><h3 id="1-建树"><a href="#1-建树" class="headerlink" title="1.建树"></a>1.建树</h3><p>建树采用二分的方法</p>
+<figure class="highlight c++ hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">build</span><span class="hljs-params">(<span class="hljs-keyword">int</span> l,<span class="hljs-keyword">int</span> r,<span class="hljs-keyword">int</span> node)</span></span></span><br><span class="line"><span class="hljs-function"></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(l==r)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>,&amp;tree[node]);</span><br><span class="line">        maxn[node] = tree[node];</span><br><span class="line">        <span class="hljs-keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-keyword">int</span> mid = (l+r)&gt;&gt;<span class="hljs-number">1</span>;</span><br><span class="line">    build(l,mid,node*<span class="hljs-number">2</span>);</span><br><span class="line">    build(mid+<span class="hljs-number">1</span>,r,node*<span class="hljs-number">2</span>+<span class="hljs-number">1</span>);</span><br><span class="line">    tree[node] = tree[node&lt;&lt;<span class="hljs-number">1</span>] + tree[node&lt;&lt;<span class="hljs-number">1</span> | <span class="hljs-number">1</span>];</span><br><span class="line">    maxn[node] =max( maxn[node&lt;&lt;<span class="hljs-number">1</span>] , maxn[node&lt;&lt;<span class="hljs-number">1</span>|<span class="hljs-number">1</span>] );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
- 
-<body>
-<div id="primary" class="content-area" style>
-    <main id="main" class="site-main" role="main">
-        <div id="shuoshuo_content">
-            <ul class="cbp_tmtimeline">
-                <li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>以后可以碎碎念了</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年1月24日
-                        </p>
-                    </a>
-                </li>
-				<li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>武汉加油！中国加油！</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年1月25日
-                        </p>
-                    </a>
-                </li>
-				<li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>愿天堂也有亲爱的篮球</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年1月28日
-                        </p>
-                    </a>
-                </li>
-				<li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>你看我，那么容易妥协吗？</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年1月31日
-                        </p>
-                    </a>
-                </li>
-				<li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>好像快开学了</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年2月05日
-                        </p>
-                    </a>
-                </li>
-				<li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>抖音这是个神奇的东西</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年2月20日
-                        </p>
-                    </a>
-                </li>
-				<li> <span class="shuoshuo_author_img"><img src="https://angelni.github.io/AngelNI.github.io/images/avatar.png" class="avatar avatar-48" width="48" height="48"></span>
-                    <a class="cbp_tmlabel" href>
-                        <p></p>
-                        <p>向英雄致敬，向逝者致哀</p>
-                        <p></p>
-                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i>
-                            2020年4月4日
-                        </p>
-                    </a>
-                </li>
-            </ul>
+<h3 id="2-单点修改"><a href="#2-单点修改" class="headerlink" title="2.单点修改"></a>2.单点修改</h3><figure class="highlight c++ hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-comment">//单点修改</span></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">change</span><span class="hljs-params">(<span class="hljs-keyword">int</span> index,<span class="hljs-keyword">int</span> key,<span class="hljs-keyword">int</span> l,<span class="hljs-keyword">int</span> r,<span class="hljs-keyword">int</span> node)</span></span></span><br><span class="line"><span class="hljs-function"></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(l==r)</span><br><span class="line">    &#123;</span><br><span class="line">        tree[node] = key;</span><br><span class="line">        maxn[node] = key;</span><br><span class="line">        <span class="hljs-keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-comment">// push_down(node,mid-l+1,r-mid); 若既有点更新又有区间更新，需要这句话</span></span><br><span class="line">    <span class="hljs-keyword">int</span> mid = (l+r)&gt;&gt;<span class="hljs-number">1</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(index&lt;=mid)</span><br><span class="line">        change(index,key,l,mid,node&lt;&lt;<span class="hljs-number">1</span>);</span><br><span class="line">    <span class="hljs-keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        change(index,key,mid+<span class="hljs-number">1</span>,r,node&lt;&lt;<span class="hljs-number">1</span>|<span class="hljs-number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    tree[node] = tree[node&lt;&lt;<span class="hljs-number">1</span>] +tree[node&lt;&lt;<span class="hljs-number">1</span>|<span class="hljs-number">1</span>];</span><br><span class="line">    maxn[node] = max(maxn[node&lt;&lt;<span class="hljs-number">1</span>] ,maxn[node&lt;&lt;<span class="hljs-number">1</span>|<span class="hljs-number">1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-区间和"><a href="#3-区间和" class="headerlink" title="3.区间和"></a>3.区间和</h3><figure class="highlight c++ hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-comment">//区间和</span></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">query_sum</span><span class="hljs-params">(<span class="hljs-keyword">int</span> L,<span class="hljs-keyword">int</span> R,<span class="hljs-keyword">int</span> l,<span class="hljs-keyword">int</span> r,<span class="hljs-keyword">int</span> node)</span></span></span><br><span class="line"><span class="hljs-function"></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(L&lt;=l&amp;&amp;r&lt;=R)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="hljs-keyword">return</span> tree[node];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-keyword">int</span> mid = (l+r)&gt;&gt;<span class="hljs-number">1</span>;</span><br><span class="line">    <span class="hljs-keyword">int</span> sum = <span class="hljs-number">0</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(L&lt;=mid)</span><br><span class="line">    &#123;</span><br><span class="line">        sum+=query_sum(L,R,l,mid,node*<span class="hljs-number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-keyword">if</span>(mid+<span class="hljs-number">1</span>&lt;=R)</span><br><span class="line">    &#123;</span><br><span class="line">        sum+=query_sum(L,R,mid+<span class="hljs-number">1</span>,r,node*<span class="hljs-number">2</span>+<span class="hljs-number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-keyword">return</span> sum;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-区间更新"><a href="#4-区间更新" class="headerlink" title="4.区间更新"></a>4.区间更新</h3><figure class="highlight c++ hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">change_range</span><span class="hljs-params">(<span class="hljs-keyword">int</span> node,<span class="hljs-keyword">int</span> l,<span class="hljs-keyword">int</span> r,<span class="hljs-keyword">int</span> L,<span class="hljs-keyword">int</span> R,<span class="hljs-keyword">int</span> key)</span></span></span><br><span class="line"><span class="hljs-function"></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(L&lt;=l&amp;&amp;r&lt;=R)</span><br><span class="line">    &#123;</span><br><span class="line">        lazy[node] +=<span class="hljs-number">1L</span>L*key;</span><br><span class="line">        tree[node]+=<span class="hljs-number">1L</span>L*(r-l+<span class="hljs-number">1</span>)*key;</span><br><span class="line">        <span class="hljs-keyword">return</span>  ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-comment">//push_down(node,l,r);</span></span><br><span class="line">    <span class="hljs-keyword">int</span> mid = (l+r)&gt;&gt;<span class="hljs-number">1</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(l&lt;=mid)</span><br><span class="line">        change_range(node&lt;&lt;<span class="hljs-number">1</span>,l,mid,L,R,key);</span><br><span class="line">    <span class="hljs-keyword">if</span>(mid&lt;r)</span><br><span class="line">        change_range(node&lt;&lt;<span class="hljs-number">1</span>|<span class="hljs-number">1</span>,mid+<span class="hljs-number">1</span>,r,L,R,key);</span><br><span class="line">    tree[node] = tree[node&lt;&lt;<span class="hljs-number">1</span>] +tree[node&lt;&lt;<span class="hljs-number">1</span>|<span class="hljs-number">1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="未完待续。。。。"><a href="#未完待续。。。。" class="headerlink" title="未完待续。。。。"></a>未完待续。。。。</h1>
         </div>
-</main></div>
-
-<script type="text/javascript">
-    (function () {
-        var oldClass = "";
-        var Obj = "";
-        $(".cbp_tmtimeline li").hover(function () {
-            Obj = $(this).children(".shuoshuo_author_img");
-            Obj = Obj.children("img");
-            oldClass = Obj.attr("class");
-            var newClass = oldClass + " zhuan";
-            Obj.attr("class", newClass);
-        }, function () {
-            Obj.attr("class", oldClass);
-        })
-    })
-</script>
-</body>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/Ning-Hui.github.io/tags/Segment-Tree/">Segment Tree</a>
+                </div>
+            </div>
         </div>
         
         
@@ -476,6 +282,20 @@
 </div>
 
 
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/Ning-Hui.github.io/re-expression/">
+                <span class="level-item">正则——常用匹配公式</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
 
 
 
@@ -828,7 +648,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/Ning-Hui.github.io/">
                 
-                    <img src="/Ning-Hui.github.io/images/22.png" alt height="28">
+                    <img src="/Ning-Hui.github.io/images/22.png" alt="线段树Segment Tree" height="28">
                 
                 </a>
                 <p class="is-size-7">
